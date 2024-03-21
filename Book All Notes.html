@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML TAGS USED</title>
+</head>
+
+<!--THIS IS COMMENT TAG "<!--" -->
+<!--body starts from here :-->
+<body bgcolor="#FFE2B7" 
+link="#FF1493" vlink="#F08080" alink="blue">
+
+  <a name="Top" >
+  <p><!--paragraph attributes are : align="left,right,center,justify"-->
+   <font face="times new roman" size="10" color="green">
+    <b><!--bold-->
+     <i><!--italics-->
+      <u><!--underline-->
+       Learn HTML
+      </u>
+     </i>
+    </b>
+   </font><!--font tag is used here with its attributes-->
+  </p>
+  
+  <!--horizontal rule tag-->
+  <hr width="100%" size="10" color="brown">
+  
+  (NOTE:This page is for learning the tag uses only, 
+   and tag uses are in the source code)
+
+  
+  <p>
+    <h1><!--h1 to h6 are the heading tags-->
+1.Text formatting tags
+    </h1><!--h1 is the biggest-->
+  </p>
+  
+    
+  <tt>
+   <big>teletype</big>
+    text 
+   <small>(typewriter)</small>
+  </tt>
+  
+  
+  <center>
+    <br>Center tag is used to center align the text
+  </center>
+  
+  
+  <br><!--break tag is unpaired tag, used to enter in a new line-->
+  <sup>Superscript</sup>
+   and
+  <sub>Subscript</sub>
+   
+   
+   <pre>
+   <font face="times new roman">
+   This is a preformatted text .</font>
+   It is the best way to quickly
+   present the text in the same way
+   as you type within this tag .
+   <p>It is used to preserve the whitespaces,
+   spaces and carriage returns inserted 
+   within the text .
+     </p>
+   </pre>
+   
+ 
+ <p>
+  <h1>
+2.Inserting images
+  </h1>
+ </p>
+   
+    
+   <img src="../image files/subham.png" width="400"
+   align="right" border="10" hspace="10" vspace="10"
+   alt="Subham logo is displayed here"><!--alternate attribute is used here-->
+   
+   <img src="../Image files/lights.jpeg" height="260" width="170" 
+        align="left" border="10" hspace="10" vspace="10">
+   <p align="justify">
+   Align attribute is used to set the alignment
+   of an image relative to the text around it .
+   The different values of align attribute are
+   LEFT ,RIGHT and CENTER . To vertically align
+   or wrap the text around image , we can assign
+   one of the given values - TOP,BOTTOM and MIDDLE
+   to align attribute .<br>
+   When we display both the text and image together,
+   the text is wrapped around the image . Sometimes
+   the space between the text and image is too less.
+   Therefore, to increase the horizontal and vertical
+   space, we use HSPACE and VSPACE attribute of the 
+   img tag respectively .
+   </p>
+  
+   <!--Formatting background of a web page:
+     1.inserting image - specify url or location
+       of the image using BACKGROUND attribute 
+       of the body tag .
+     2.changing background color - use BGCOLOR 
+       attribute of the body tag .
+     3.changing foreground color (i.e. text color)
+       -use TEXT attribute of the body tag .
+   -->  
+   
+   
+ <p>
+  <h1>
+3.Creating links
+  </h1>
+ </p>
+   
+   
+   <!--HREF stands for HYPERTEXT REFERENCE-->
+   <!--link as a text-->
+   <a href="homepage/index.html" target="_blank">
+   Homepage
+   </a><!--anchor tag-->
+    
+    
+    
+   <p>
+    <h1>
+4.Creating tables
+    </h1>
+   </p>
+    
+    
+    <table border="2" width="300" bgcolor="yellow"
+           cellspacing="4" cellpadding="2">
+     <tr><!--table row-->
+      <th><!--table heading-->
+       cell 1
+      </th>
+      <th>
+       cell 2
+      </th>
+      <th>
+       cell 3
+      </th>
+     </tr>
+    
+     <tr>
+      <td><!--table data-->
+       cell 4
+       <img src="../image files/lights.jpeg" height="20" width="30">
+      </td>
+      <td>
+       <a href="homepage/index.html" target="_blank" >homepage</a>
+      </td>
+      <td>
+       cell 6
+      </td>
+     </tr>
+     
+     <tr>
+      <td>
+       cell 7
+      </td>
+      <td>
+       cell 8
+      </td>
+      <td>
+       cell 9
+      </td>
+     </tr>
+     
+     <tr>
+      <td>
+       cell 10
+      </td>
+      <td>
+       cell 11
+      </td>
+      <td>
+       cell 12
+      </td>
+     </tr>
+    </table>
+    
+    
+    <br>
+    <!--table 2-->
+    <table border="4" width="300" 
+    align="right" bordercolor="red"
+    cellspacing="4" cellpadding="2">
+     <tr bgcolor="brown">
+      <th colspan="2">
+       A
+      </th>
+      <th colspan="2">
+       B
+      </th>
+      <th colspan="2">
+       C
+      </th>
+     </tr>
+     
+     <tr>
+      <td>
+       a
+      </td>
+      <td>
+       c
+      </td>
+      <td>
+       e
+      </td>
+      <td>
+       g
+      </td>
+      <td>
+       i
+      </td>
+      <td>
+       k
+      </td>
+     </tr>
+    
+     <tr>
+      <td>
+       b
+      </td>
+      <td>
+       d
+      </td>
+     <td>
+       f
+      </td>
+      <td>
+       h
+      </td>
+      <td>
+       j
+      </td>
+      <td>
+       l
+      </td>
+     </tr>
+    </table><!--table 2 complete-->
+    
+    
+    <br>
+    <!--table 3-->
+    <table border="4" width="300" background="../image files/stars.jpeg"
+    cellspacing="4" cellpadding="2">
+     <tr>
+      <th rowspan="2" align="left">
+       A
+      </th>
+      <td align="center"><!--alignment of contents in cell-->
+       a
+      </td>
+      <td bgcolor="pink">
+       b
+      </td>
+     </tr>
+    
+     <tr>
+      <td align="right">
+       c
+      </td>
+      <td>
+       d
+      </td>
+     </tr>
+    
+     <tr>
+      <th rowspan="2" valign="top">
+       B      <!--valign stands for vertically alignment-TOP,MIDDLE,BOTTOM-->
+      </th>
+      <td>
+       e
+      </td>
+      <td>
+       f
+      </td>
+     </tr>
+    
+     <tr>
+      <td>
+       g
+      </td>
+      <td>
+       h
+      </td>
+     </tr>
+    
+     <tr>
+      <th rowspan="2">
+       C
+      </th>
+      <td>
+       i
+      </td>
+      <td>
+       j
+      </td>
+     </tr>
+    
+     <tr>
+      <td>
+       k
+      </td>
+      <td>
+       <!--nesting of table 2 opens-->
+       <table border="3" width="100">
+       <tr bgcolor="brown">
+       <th colspan="2">
+       A
+       </th>
+       <th colspan="2">
+       B
+       </th>
+       <th colspan="2">
+       C
+       </th>
+       </tr>
+       
+       <tr>
+       <td>
+       a
+       </td>
+       <td>
+       c
+       </td>
+       <td>
+       e
+       </td>
+       <td>
+       g
+       </td>
+       <td>
+       i
+       </td>
+       <td>
+       k
+       </td>
+       </tr>
+       
+       <tr>
+       <td>
+       b
+       </td>
+       <td>
+       d
+       </td>
+       <td>
+       f
+       </td>
+       <td>
+       h
+       </td>
+       <td>
+       j
+       </td>
+       <td>
+       l
+       </td>
+       </tr>
+       </table>
+       <!-- nesting of table 2 closes-->
+      </td>
+     </tr>
+    </table><!--table 3 complete-->
+    
+    
+    
+    <p>
+     <h1>
+5.Creating lists
+     </h1>
+    </p>
+    
+    <!--li stands for list-->
+    <ol><!--ordered list-->
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol type="1">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol type="A">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol type="a">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol type="I">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol type="i">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    <ol start="5"><!--start from 5-->
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ol>
+    
+    
+    <ul><!--unordered list-->
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ul>
+    
+    <ul type="disc">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ul>
+    
+    <ul type="circle">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ul>
+    
+    <ul type="square">
+     <li>Red
+     <li>Green
+     <li>Blue
+    </ul>
+    
+    
+    <dl><!--definition list, usually used for creating glossary of terms-->
+     <dt><!--definition term-->
+     Computer
+      <dd><!--definition-->
+      It is an electronic device .
+     <dt>
+     Hardware
+      <dd>
+      Physical components of computer .
+    </dl>
+    
+    
+    <menu><!--generally it is used to creat a list of urls, but it is deprecated-->
+     <li>www.google.com
+     <li>www.yahoo.com
+     <li>www.bing.com
+    </menu>
+    
+    
+    <br>
+    
+   <dir><!--directory or multi-column list,deprecated tag-->
+     <li>Computer
+    <dir>
+     <li>Hardware.htm
+     <li>Software.htm
+    </dir>
+     <li>Personal Computer
+    <dir>
+     <li>Desktop.htm
+     <li>Laptop.htm
+    </dir>
+   </dir>
+  
+  
+  
+  
+  <p>
+   <h1>
+6.Creating forms 
+   </h1>
+  </p>
+    
+   <form>
+   Username:<!--form with a text field-->
+    <input type="text" name="textbox1" 
+          value="Enter your username here" size="20">
+    </input>
+    
+    <br><br>
+   Address:<!--multi-line text field-->
+    <textarea rows="2" cols="25"
+              name="textarea1">
+    </textarea>
+    
+    <br><br>
+   Password:<!--password field-->
+    <input type="password" name="password"
+           value="" size="20" maxlength="4">
+    </input>
+    
+    <br><br>
+   What is your Gender ?<!--radio or option button-->
+   <br>
+    <input type="radio" name="gender"
+           value="male">Male
+    <input type="radio" name="gender"
+           value="female">Female
+           
+   <br><br>
+  What is your Qualification ?<!--checkbox-->       
+  <br>
+    <input type="checkbox"checked name="education"
+           value="graduate">Graduate         
+    <input type="checkbox" name="education"
+           value="postgraduate">Postgraduate
+   
+   <br><br>
+  Where do you belong to ?<!--drop down menu-->
+  <br>
+    <select name="city">
+     <option value="1" selrcted>Jamshedpur</option>
+     <option value="2">Other state of India</option>
+     <option value="3">Outside India</option>
+    </select>
+   
+   <br><br> 
+  <!--Submit button-->
+    <input type="submit" name="submit"
+           value="submit">
+           
+    <br><br>       
+   <!--reset button-->     
+     <input type="reset" name="reset"
+            value="reset">
+   </form>
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  <!--link as an image-->
+  </a> <br><br><br>
+   <a href="#Top" >
+    <p align="right">
+     <img src="../image files/top.jpeg" height="40" width="40">
+    </p>
+   </a>
+</body>
+</html>
